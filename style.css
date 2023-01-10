@@ -9,6 +9,9 @@
 
 body {
   background-image: url("./images/mobile_intro_bg.png");
+  background-position: 99% 0%;
+  background-repeat: no-repeat;
+  background-size: 107%;
   font-family: "lato", sans-serif;
   width: 100%;
 }
@@ -58,23 +61,21 @@ body {
 
 .info {
   margin: 0 auto;
-  padding-top: 90px;
+  padding-top: 37px;
   height: 100%;
-  width: 90%;
+  width: 89%;
 }
 
 .info span {
   color: #ec5242;
-  font-size: 47px;
+  font-size: 30px;
   font-weight: 300;
 }
 
 .info h1 {
   color: #ec5242;
   font-weight: 800;
-  font-size: 48px;
-  line-height: 57px;
-  padding-right: 65px;
+  font-size: 32px;
   background:
     linear-gradient(
       to left,
@@ -90,27 +91,138 @@ body {
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: 90%;
+  width: 100%;
 }
 
 .info p {
+  background-color: #f6f5f5;
   border: 2px solid #fff;
   color: #272a31;
   font-size: 16px;
-  margin-top: 34px;
-  padding: 24px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  padding: 8px 12px;
   line-height: 24px;
   width: 100%;
 }
 
 .time {
-  font-size: 24px;
-  padding-top: 16px;
+  font-size: 22px;
+  padding-top: 1px;
   color: #272a31;
+  margin-top: 12px;
 }
 
 .location {
   color: #272a31;
-  font-weight: 400;
-  padding-top: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 1px;
+  margin-bottom: 74px;
 }
+
+.program-section {
+  background-color: #272a31;
+  background-image: url("./images/pattern_bg\ .png");
+  padding-top: 28px;
+  width: 100%;
+}
+
+.program-section .main {
+  color: #f6f5f5;
+  font-size: 24px;
+  padding-top: 48px;
+  text-align: center;
+}
+
+.line-bar {
+  display: block;
+  margin: 4px auto 50px auto;
+  background-color: #ec5242;
+  width: 40px;
+  height: 4px;
+}
+
+.program-section .content-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.program-section .program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.program-section .program img {
+  display: block;
+  margin: 24px auto 12px auto;
+  width: 15%;
+}
+
+.features .intro {
+    font-size: 16px;
+    text-align: center;
+    color: #272a31;
+    margin-top: 50px
+}
+
+.program-section .program h2 {
+  text-align: left;
+  color: #ec5242;
+  font-size: 12px;
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+.program-section .program p {
+  color: #f6f5f5;
+  text-align: left;
+  padding: 4px;
+  width: 60%;
+  font-size: 11px;
+  margin: auto;
+}
+
+.action .mobile-view {
+  display: block;
+  background-color: #ec5242;
+  color: #f6f5f5;
+  padding: 1.5rem;
+  text-decoration: none;
+  width: 65%;
+  font-size: 10px;
+  margin: 24px auto 24px auto;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.action .desktop-view {
+  display: none;
+}
+
+.features {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+}
+
+.speakers {
+    display: flex;
+    gap: 15px;
+}
+
+.speaker-info span {
+    color: #ec5242;
+}
+
