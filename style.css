@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-image: url("./images/mobile_intro_bg.png");
+  font-family: "lato", sans-serif;
+  width: 100%;
+}
+
+.art-logo {
+  display: none;
+}
+
+.hamburger {
+  display: block;
+  width: 100%;
+  padding-top: 24px;
+  cursor: pointer;
+  z-index: 12;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #272a31;
+  margin-left: 24px;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-top {
+  display: none;
+}
+
+.top-bar {
+  display: none;
+}
+
+.info {
+  margin: 0 auto;
+  padding-top: 90px;
+  height: 100%;
+  width: 90%;
+}
+
+.info span {
+  color: #ec5242;
+  font-size: 47px;
+  font-weight: 300;
+}
+
+.info h1 {
+  color: #ec5242;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 57px;
+  padding-right: 65px;
+  background:
+    linear-gradient(
+      to left,
+      red,
+      rgba(239, 67, 96, 0.863),
+      rgba(255, 0, 0, 0.26),
+      rgb(105, 44, 3),
+      #ec5242,
+      red,
+      rgb(133, 88, 4),
+      red
+    );
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 90%;
+}
+
+.info p {
+  border: 2px solid #fff;
+  color: #272a31;
+  font-size: 16px;
+  margin-top: 34px;
+  padding: 24px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.time {
+  font-size: 24px;
+  padding-top: 16px;
+  color: #272a31;
+}
+
+.location {
+  color: #272a31;
+  font-weight: 400;
+  padding-top: 12px;
+}
