@@ -51,8 +51,35 @@ body {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+.nav-top.active {
+  left: 0;
+  cursor: pointer;
+  height: 100vh;
+  background-color: white;
+  display: block;
+  padding-top: 25%;
+}
+
 .nav-top {
+  position: fixed;
+  flex-direction: column;
+  text-align: left;
+  transition: 0.3s;
+  width: 100%;
+  z-index: 12;
   display: none;
+}
+
+.nav-link a {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #272a31;
+  margin-top: 20px;
+  padding-left: 28px;
+  text-decoration: none;
 }
 
 .top-bar {
@@ -76,18 +103,17 @@ body {
   color: #ec5242;
   font-weight: 800;
   font-size: 32px;
-  background:
-    linear-gradient(
-      to left,
-      red,
-      rgba(239, 67, 96, 0.863),
-      rgba(255, 0, 0, 0.26),
-      rgb(105, 44, 3),
-      #ec5242,
-      red,
-      rgb(133, 88, 4),
-      red
-    );
+  background: linear-gradient(
+    to left,
+    red,
+    rgba(239, 67, 96, 0.863),
+    rgba(255, 0, 0, 0.26),
+    rgb(105, 44, 3),
+    #ec5242,
+    red,
+    rgb(133, 88, 4),
+    red
+  );
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -170,10 +196,11 @@ body {
 }
 
 .features .intro {
-    font-size: 16px;
-    text-align: center;
-    color: #272a31;
-    margin-top: 50px
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #272a31;
+  margin-top: 50px;
 }
 
 .program-section .program h2 {
@@ -200,7 +227,7 @@ body {
   color: #f6f5f5;
   padding: 1.5rem;
   text-decoration: none;
-  width: 65%;
+  width: 100%;
   font-size: 10px;
   margin: 24px auto 24px auto;
   border-radius: 4px;
@@ -212,17 +239,103 @@ body {
 }
 
 .features {
-    display: grid;
-    gap: 10px;
-    width: 100%;
+  display: grid;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .speakers {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 8px;
 }
 
-.speaker-info span {
+.speaker-info h4 {
+  color: #ec5242;
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 8px;
+}
+
+.speaker-bar {
+  display: block;
+  margin: 0;
+  background-color: rgba(60, 63, 70, 0.5);
+  width: 35px;
+  height: 4px;
+}
+
+.speakers img {
+  height: 100px;
+  width: 100px;
+}
+
+.speaker-info h3 {
+  text-align: left;
+  padding-bottom: 0.3rem;
+}
+
+.speaker-info p {
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+.end {
+  margin-bottom: 100px;
+  background-color: #8888;
+  height: 100px;
+}
+
+/* About Page Styling */
+.about h3 {
     color: #ec5242;
+    text-align: center;
+    font-size: 22px;
+    display: block;
 }
 
+section.about h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #ec5242;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+}
+
+.about .short-intro {
+    display: none;
+}
+
+.about .short-intro-mobile {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 98%;
+    background-color: #fff;
+    text-align: center;
+    color: #272a31;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 24px 8px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.via-mail>span {
+    display: none;
+}
+
+.about .line-bar {
+    display: none;
+}
+
+.via-mail {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 24px;
+    text-decoration: underline;
+}
