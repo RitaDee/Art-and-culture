@@ -103,17 +103,18 @@ body {
   color: #ec5242;
   font-weight: 800;
   font-size: 32px;
-  background: linear-gradient(
-    to left,
-    red,
-    rgba(239, 67, 96, 0.863),
-    rgba(255, 0, 0, 0.26),
-    rgb(105, 44, 3),
-    #ec5242,
-    red,
-    rgb(133, 88, 4),
-    red
-  );
+  background:
+    linear-gradient(
+      to left,
+      red,
+      rgba(239, 67, 96, 0.863),
+      rgba(255, 0, 0, 0.26),
+      rgb(105, 44, 3),
+      #ec5242,
+      red,
+      rgb(133, 88, 4),
+      red
+    );
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -189,6 +190,24 @@ body {
   width: 100%;
 }
 
+.summit img {
+  display: block;
+  margin: 24px auto 24px auto;
+  border: 1px solid rgba(60, 63, 70, 0.5);
+  padding: 24px 72px;
+  width: 90%;
+}
+
+.speakers img {
+  height: 100px;
+  width: 100px;
+}
+
+.logo2 img {
+  width: 98%;
+  padding: 1rem;
+}
+
 .program-section .program img {
   display: block;
   margin: 24px auto 12px auto;
@@ -203,6 +222,40 @@ body {
   margin-top: 50px;
 }
 
+.past-summit h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #272a31;
+  font-size: 20px;
+  padding-top: 32px;
+}
+
+.summit h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #272a31;
+  font-size: 24px;
+  padding-bottom: 4px;
+  padding-top: 60px;
+  width: 75%;
+  margin: 0 auto 0 auto;
+}
+
+.first-image h2,
+.second-image h2 {
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 24px;
+}
+
+.about-partner h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #d3d3d3;
+  padding-top: 36px;
+  padding-bottom: 4px;
+}
+
 .program-section .program h2 {
   text-align: left;
   color: #ec5242;
@@ -210,6 +263,35 @@ body {
   display: block;
   margin: auto;
   width: 20%;
+}
+
+.first-image p,
+.second-image p {
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 16px;
+}
+
+.summit p {
+  text-align: center;
+  width: 90%;
+  font-size: 12px;
+  margin: 0 auto 0 auto;
+  padding-top: 0;
+  color: #272a31;
+}
+
+.speaker-info p {
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+.past-summit p {
+  text-align: center;
+  color: #272a31;
+  font-size: 12px;
+  width: 95%;
+  margin: 0 auto 0 auto;
 }
 
 .program-section .program p {
@@ -239,7 +321,8 @@ body {
 }
 
 .features {
-  display: grid;
+  display: block;
+  flex-direction: column;
   gap: 20px;
   width: 90%;
   margin: 0 auto;
@@ -248,7 +331,8 @@ body {
 .speakers {
   display: flex;
   gap: 15px;
-  margin-bottom: 8px;
+  width: 90%;
+  margin: 0 auto 8px auto;
 }
 
 .speaker-info h4 {
@@ -266,76 +350,189 @@ body {
   height: 4px;
 }
 
-.speakers img {
-  height: 100px;
-  width: 100px;
-}
-
 .speaker-info h3 {
   text-align: left;
   padding-bottom: 0.3rem;
 }
 
-.speaker-info p {
-  font-size: 12px;
-  padding-top: 8px;
-}
-
 .end {
-  margin-bottom: 100px;
-  background-color: #8888;
-  height: 100px;
+  margin-bottom: 70px;
 }
 
 /* About Page Styling */
+.first-container {
+  width: 95%;
+}
+
 .about h3 {
-    color: #ec5242;
-    text-align: center;
-    font-size: 22px;
-    display: block;
+  color: #ec5242;
+  text-align: center;
+  font-size: 22px;
+  display: block;
 }
 
-section.about h1 {
-    margin: 0;
-    font-size: 30px;
-    color: #ec5242;
-    width: 100%;
-    text-align: center;
-    padding: 0;
-    font-weight: bold;
+section .about h1 {
+  margin: 0;
+  font-size: 30px;
+  color: #ec5242;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
 }
 
-.about .short-intro {
-    display: none;
+.about .intro {
+  display: none;
 }
 
-.about .short-intro-mobile {
-    display: block;
-    margin: 50px auto 50px auto;
-    width: 98%;
-    background-color: #fff;
-    text-align: center;
-    color: #272a31;
-    font-size: 12px;
-    line-height: 24px;
-    padding: 24px 8px;
-    border-radius: 4px;
-    font-weight: 400;
+.about .intro-mobile {
+  display: block;
+  margin: 50px 12px 31px 12px;
+  width: 98%;
+  background-color: #fff;
+  text-align: center;
+  color: #272a31;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 24px 8px;
+  border-radius: 4px;
+  font-weight: 400;
 }
 
-.via-mail>span {
-    display: none;
+.contact-us {
+  font-size: 16px;
+  color: #272a31;
+  text-align: center;
+}
+
+.via-mail > span {
+  display: none;
 }
 
 .about .line-bar {
-    display: none;
+  display: none;
 }
 
 .via-mail {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 4px;
-    padding-bottom: 24px;
-    text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 24px;
+  text-decoration: underline;
+}
+
+.competition-date {
+  display: none;
+}
+
+.competition-date-mobile {
+  display: block;
+}
+
+.first-image {
+  background: url("./images/past-img2.png") no-repeat;
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  background-position: center;
+  margin: 24px auto 24px auto;
+}
+
+.second-image {
+  background: url("./images/past-img2.png") no-repeat;
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  background-position: center;
+  margin: 24px auto 24px auto;
+}
+
+.about-partner {
+  display: block;
+  background-color: #151414;
+  width: 100%;
+}
+
+.about-partner .line-bar {
+  background-color: #5e2d28;
+}
+
+.about-partner .partner-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 44px;
+}
+
+.partner-list a {
+  text-decoration: none;
+}
+
+.interswitch {
+  color: rgb(238, 51, 89);
+}
+
+.mtn {
+  color: yellow;
+}
+
+.deloitte,
+.mozilla {
+  color: #d3d3d3;
+}
+
+.mozilla,
+.navier {
+  font-weight: 900;
+}
+
+.footer-note {
+  display: none;
+}
+
+.about-footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.logo2 {
+  width: 50%;
+}
+
+.about-footer .copyright-details {
+  width: 50%;
+}
+
+.copyright-details h4 {
+  color: #272a31;
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  padding-top: 13px;
+  height: 80px;
+}
+
+footer.about {
+  background-color: #fff;
+}
+
+footer {
+  padding: 0;
+  margin: 0;
+  padding-top: 12px;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    
 }
