@@ -82,6 +82,17 @@ body {
   text-decoration: none;
 }
 
+.campaign {
+  border: 4px solid #ec5242;
+  padding: 8px;
+  color: #ec5242;
+  margin: 0 0 0 26px;
+}
+
+.campaign-align {
+  margin-top: 24px;
+}
+
 .top-bar {
   display: none;
 }
@@ -103,18 +114,17 @@ body {
   color: #ec5242;
   font-weight: 800;
   font-size: 32px;
-  background:
-    linear-gradient(
-      to left,
-      red,
-      rgba(239, 67, 96, 0.863),
-      rgba(255, 0, 0, 0.26),
-      rgb(105, 44, 3),
-      #ec5242,
-      red,
-      rgb(133, 88, 4),
-      red
-    );
+  background: linear-gradient(
+    to left,
+    red,
+    rgba(239, 67, 96, 0.863),
+    rgba(255, 0, 0, 0.26),
+    rgb(105, 44, 3),
+    #ec5242,
+    red,
+    rgb(133, 88, 4),
+    red
+  );
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -246,6 +256,7 @@ body {
   color: #d3d3d3;
   text-align: center;
   font-size: 24px;
+  padding-top: 1rem;
 }
 
 .about-partner h2 {
@@ -289,9 +300,15 @@ body {
 .past-summit p {
   text-align: center;
   color: #272a31;
-  font-size: 12px;
+  font-size: 16px;
   width: 95%;
+  padding: 2rem;
+  font-weight: 500;
   margin: 0 auto 0 auto;
+}
+
+.past-summit p.summit-v {
+  color: #fff;
 }
 
 .program-section .program p {
@@ -533,6 +550,38 @@ footer {
 }
 
 /* Desktop */
-@media only screen and (min-width: 768px) {
-    
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .top-bar {
+    background-color: #272a31;
+    display: flex;
+    justify-content: flex-end;
+    height: 5vh;
+    padding: 0rem 6rem;
+  }
+
+  .top-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .top-bar li a {
+    color: #d3d3d3;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  header .nav-top {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
