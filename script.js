@@ -65,8 +65,12 @@ const speakers = [{
 const guestSpeakers = document.querySelector('.speakers-container');
 
 for (let i = 0; i < speakers.length; i += 1) {
+  let visibleImg = 'show';
+  if (i > 1) {
+    visibleImg = 'hide';
+  }
   guestSpeakers.innerHTML += `
-  <div class="speakers">
+  <div class="${visibleImg} speakers">
     <div><img src="${speakers[i].speakerImg}" alt="image"></div>
             <div class="speaker-info">
             <h3>${speakers[i].speakerName}</h3>
@@ -76,3 +80,25 @@ for (let i = 0; i < speakers.length; i += 1) {
              </div>
              </div>`;
 }
+
+const moreBtn = document.querySelector('.btn-more');
+const perImg = document.querySelectorAll('.speakers');
+const lessBtn = document.querySelector('.btn-less');
+
+moreBtn.addEventListener('click', () => {
+  perImg.forEach((eachspeaker) => {
+    eachspeaker.classList.remove('hide');
+    moreBtn.classList.add('hide');
+    lessBtn.classList.remove('hide');
+  });
+});
+
+lessBtn.addEventListener('click', () => {
+  perImg.forEach((eachspeaker, index) => {
+    if (index > 1) {
+      eachspeaker.classList.add('hide');
+      lessBtn.classList.add('hide');
+      moreBtn.classList.remove('hide');
+    }
+  });
+});
