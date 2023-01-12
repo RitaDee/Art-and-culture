@@ -112,17 +112,18 @@ body {
   color: #ec5242;
   font-weight: 800;
   font-size: 32px;
-  background: linear-gradient(
-    to left,
-    red,
-    rgba(239, 67, 96, 0.863),
-    rgba(255, 0, 0, 0.26),
-    rgb(105, 44, 3),
-    #ec5242,
-    red,
-    rgb(133, 88, 4),
-    red
-  );
+  background:
+    linear-gradient(
+      to left,
+      red,
+      rgba(239, 67, 96, 0.863),
+      rgba(255, 0, 0, 0.26),
+      rgb(105, 44, 3),
+      #ec5242,
+      red,
+      rgb(133, 88, 4),
+      red
+    );
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -209,11 +210,6 @@ body {
 .speakers img {
   height: 100px;
   width: 100px;
-}
-
-#speak {
-  display: flex;
-  flex-direction: row;
 }
 
 .logo2 img {
@@ -396,7 +392,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #151414;
   padding: 1rem 11rem;
   font-size: 15px;
@@ -493,7 +489,7 @@ section .about h1 {
   height: 200px;
   background-size: contain;
   background-position: center;
-  margin: 24px auto 24px auto;
+  margin: 24px 20px 24px 0;
 }
 
 .second-image {
@@ -502,7 +498,7 @@ section .about h1 {
   height: 200px;
   background-size: contain;
   background-position: center;
-  margin: 24px auto 24px auto;
+  margin: 24px 20px 24px 0;
 }
 
 .about-partner {
@@ -589,11 +585,7 @@ footer {
   padding-top: 12px;
 }
 
-.about-partner {
-  display: none;
-}
-
-.about-footer {
+#info-partner {
   display: none;
 }
 
@@ -608,7 +600,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     height: 5vh;
-    padding: 0rem 6rem;
+    padding: 0 6rem;
   }
 
   .top-bar ul {
@@ -637,6 +629,19 @@ footer {
   .main-bar {
     background-color: #fff;
     position: relative;
+  }
+
+  .about-footer img {
+    width: 54%;
+    padding: 2rem 0;
+  }
+
+  .summit img {
+    width: 33%;
+    display: block;
+    margin: 24px auto 24px auto;
+    border: 1px solid rgba(60, 63, 70, 0.5);
+    padding: 1px 0;
   }
 
   .nav-top .art-logo {
@@ -703,7 +708,6 @@ footer {
     background-color: #f6f5f5;
     border: 2px solid #fff;
     color: #272a31;
-    border: 2px solid #fff;
     width: 60%;
     font-size: 16px;
     padding: 24px;
@@ -765,8 +769,14 @@ footer {
     padding-top: 2rem;
   }
 
+  .past-summit p {
+    text-align: center;
+    color: #272a31;
+    font-size: 16px;
+  }
+
   .program-section .program p {
-    padding: 0rem;
+    padding: 0;
     margin: 0;
     width: 90%;
     font-size: 14px;
@@ -778,18 +788,26 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 
+  #speak {
+    display: flex;
+    flex-direction: row;
+  }
+
   .about-partner {
     display: grid;
-    padding-top: 1rem;
   }
 
   .about-footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
-    width: 40%;
+    width: 100%;
+    background-color: #222121;
   }
 
-  /* About styling */
+  .about-footer .logo2 {
+    margin: 0 auto;
+  }
+
   section .about h1 {
     padding-top: 5rem;
     font-size: 50px;
@@ -857,14 +875,6 @@ footer {
     color: #272a31;
   }
 
-  .summit img {
-    width: 33%;
-    display: block;
-    margin: 24px auto 24px auto;
-    border: 1px solid rgba(60, 63, 70, 0.5);
-    padding: 1px 0px;
-  }
-
   .past-summit {
     margin-top: 60px;
     border-top: 3px solid rgba(60, 63, 70, 0.5);
@@ -878,29 +888,10 @@ footer {
     padding-top: 60px;
   }
 
-  .past-summit p {
-    text-align: center;
-    color: #272a31;
-    font-size: 16px;
-  }
-
   .past-images {
     display: flex;
     align-items: center;
     padding: 2rem 15rem;
-  }
-
-   /* .about-partner {
-    display: none;
-  } */
-
-  .about-footer {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #272a31;
-    padding: 1rem 21rem;
   }
 
   .btn-more {
@@ -911,24 +902,27 @@ footer {
     display: none;
   }
 
-   .hide {
-    display: unset;
-    display: grid;
-  } 
-
   .new-hide {
     display: unset;
     display: none;
   }
 
-  .about-footer img {
-    width: 54%;
-    padding: 2rem 0rem;
+  .about {
+    padding: 0;
+  }
+
+  .first-image h2,
+  .second-image h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 1rem;
   }
 
   .copyright-details h4 {
     color: #fff;
     font-size: 12px;
     width: 80%;
+    margin: 2rem;
   }
 }
