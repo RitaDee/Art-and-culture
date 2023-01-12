@@ -211,6 +211,11 @@ body {
   width: 100px;
 }
 
+#speak {
+  display: flex;
+  flex-direction: row;
+}
+
 .logo2 img {
   width: 98%;
   padding: 1rem;
@@ -885,9 +890,9 @@ footer {
     padding: 2rem 15rem;
   }
 
-   .about-partner {
+   /* .about-partner {
     display: none;
-  }
+  } */
 
   .about-footer {
     width: 100%;
