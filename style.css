@@ -412,6 +412,14 @@ button {
   display: none;
 }
 
+#about-info-partner {
+  display: grid;
+}
+
+.home-partner{
+  display: none;
+}
+
 /* About Page Styling */
 .first-container {
   width: 95%;
@@ -484,7 +492,7 @@ section .about h1 {
 }
 
 .first-image {
-  background: url("./images/past-img2.png") no-repeat;
+  background: url("./images/past-img2\ \(1\).png") no-repeat;
   width: 100%;
   height: 200px;
   background-size: contain;
@@ -493,7 +501,7 @@ section .about h1 {
 }
 
 .second-image {
-  background: url("./images/past-img2.png") no-repeat;
+  background: url("./images/past-img2\ .png") no-repeat;
   width: 100%;
   height: 200px;
   background-size: contain;
@@ -502,13 +510,9 @@ section .about h1 {
 }
 
 .about-partner {
-  display: block;
+  display: flex;
   background-color: #151414;
   width: 100%;
-}
-
-.about-partner .line-bar {
-  background-color: #5e2d28;
 }
 
 .about-partner .partner-list {
@@ -585,7 +589,11 @@ footer {
   padding-top: 12px;
 }
 
-#info-partner {
+.about-partner {
+  display: none;
+}
+
+#home-footer {
   display: none;
 }
 
@@ -629,6 +637,10 @@ footer {
   .main-bar {
     background-color: #fff;
     position: relative;
+  }
+
+  #home-footer {
+    display: grid;
   }
 
   .about-footer img {
@@ -801,7 +813,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
     width: 100%;
-    background-color: #222121;
+    background-color: #f6f5f5;
   }
 
   .about-footer .logo2 {
@@ -833,6 +845,14 @@ footer {
     line-height: 24px;
   }
 
+  #second-about-footer {
+    background-color: #151414;
+  }
+
+  #copy h4 {
+    color: #fff;
+  }
+
   .about .intro-mobile {
     display: none;
   }
@@ -849,6 +869,10 @@ footer {
     text-align: center;
     padding-top: 4px;
     padding-bottom: 0;
+  }
+
+  #summit-sec {
+    background-color: #fff;
   }
 
   .summit h2 {
@@ -878,6 +902,7 @@ footer {
   .past-summit {
     margin-top: 60px;
     border-top: 3px solid rgba(60, 63, 70, 0.5);
+    background-color: #fff;
   }
 
   .past-summit h2 {
@@ -920,9 +945,21 @@ footer {
   }
 
   .copyright-details h4 {
-    color: #fff;
+    color: #272a31;
     font-size: 12px;
     width: 80%;
     margin: 2rem;
   }
+
+    .footer-note {
+      display: flex;
+        font-size: 12px;
+        margin: -3rem;
+        padding: 0rem 0rem 0rem 5rem;
+    }
+
+    #about-info-partner {
+      display: none;
+    }
+
 }
