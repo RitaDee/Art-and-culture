@@ -416,7 +416,7 @@ button {
   display: grid;
 }
 
-.home-partner{
+.home-partner {
   display: none;
 }
 
@@ -509,7 +509,7 @@ section .about h1 {
   margin: 24px 20px 24px 0;
 }
 
-.about-partner {
+section.about-partner {
   display: flex;
   background-color: #151414;
   width: 100%;
@@ -849,6 +849,13 @@ footer {
     background-color: #151414;
   }
 
+  .copyright-details h4 {
+    color: #272a31;
+    font-size: 12px;
+    width: 80%;
+    margin: 2rem;
+  }
+
   #copy h4 {
     color: #fff;
   }
@@ -944,22 +951,14 @@ footer {
     padding-top: 1rem;
   }
 
-  .copyright-details h4 {
-    color: #272a31;
+  .footer-note {
+    display: flex;
     font-size: 12px;
-    width: 80%;
-    margin: 2rem;
+    margin: -3rem;
+    padding: 0 0 0 5rem;
   }
 
-    .footer-note {
-      display: flex;
-        font-size: 12px;
-        margin: -3rem;
-        padding: 0rem 0rem 0rem 5rem;
-    }
-
-    #about-info-partner {
-      display: none;
-    }
-
+  #about-info-partner {
+    display: none;
+  }
 }
