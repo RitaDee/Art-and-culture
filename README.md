@@ -40,7 +40,7 @@ This project is the capstone project that portrays a conference to be held for A
 
 ## 🎥 WALKTHROUGH <a name="walkthrough"></a>
 
-<a name="loom link">loom link</a>
+<a name="loom link">https://www.loom.com/share/77b8c253d09f4074970c6fa9d8395a62</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
