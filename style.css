@@ -509,8 +509,8 @@ section .about h1 {
   margin: 24px 20px 24px 0;
 }
 
-section.about-partner {
-  display: flex;
+.about-partner {
+  display: none;
   background-color: #151414;
   width: 100%;
 }
@@ -587,10 +587,6 @@ footer {
   padding: 0;
   margin: 0;
   padding-top: 12px;
-}
-
-.about-partner {
-  display: none;
 }
 
 #home-footer {
