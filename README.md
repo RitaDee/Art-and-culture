@@ -100,11 +100,9 @@ To run the project, execute the following command:
 
 - GitHub: [@RitaDee](https://github.com/RitaDee)
 - Twitter: [@durdana_dee](https://twitter.com/durdana_dee)
-- LinkedIn: [Benard Asiimwe Bataringaya](https://www.linkedin.com/in/rita-daniel/)
+- LinkedIn: [Rita Daniel](https://www.linkedin.com/in/rita-daniel/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -114,11 +112,11 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse learning resources for all the helpful information rendered in completion of this project.
+```I would like to thank the Microverse learning resources for all the helpful information rendered in completion of this project.
+
+```I give credit to Cindy Shin the author of the original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
