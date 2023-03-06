@@ -35,11 +35,11 @@ This project is the capstone project that portrays a conference to be held for A
 
 ## 🚀 VISIT SITE <a name="website"></a>
 
-<a name="https://ritadee.github.io/Art-and-culture/>">https://ritadee.github.io/Art-and-culture/</a>
+<a name="https://ritadee.github.io/Art-and-culture/>">[Live Demo](https://ritadee.github.io/Art-and-culture/)</a>
 
 ## 🎥 WALKTHROUGH <a name="walkthrough"></a>
 
-<a name="loom link">https://www.loom.com/share/aad3fa1010a84358bc7a516a53c6f69b</a>
+<a name="loom link">[Loom Recording](https://www.loom.com/share/aad3fa1010a84358bc7a516a53c6f69b)</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
