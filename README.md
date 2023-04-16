@@ -131,6 +131,18 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **[Are you sure that you are owner of this work]**
+
+  - [Yes, I am]
+
+- **[Can you make the work to be responsive]**
+
+  - [yes]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
