@@ -93,13 +93,18 @@ To run the project, execute the following command:
 
 ## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Rita Daniel**
 
 - GitHub: [@RitaDee](https://github.com/RitaDee)
 - Twitter: [@durdana_dee](https://twitter.com/durdana_dee)
 - LinkedIn: [Rita Daniel](https://www.linkedin.com/in/rita-daniel/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Mobile app integration]**
+- [ ] **[Gamification]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,15 +116,23 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ⭐️ Show your support <a name="support"></a>
+
+- Give a ⭐️ if you like this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-```I would like to thank the Microverse learning resources for all the helpful information rendered in completion of this project.
+- I would like to thank the Microverse learning resources for all the helpful information rendered in completion of this project.
 
-```I give credit to Cindy Shin the author of the original design.
+- I give credit to Cindy Shin the author of the original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
