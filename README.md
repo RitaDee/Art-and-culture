@@ -35,7 +35,7 @@ This project is the capstone project that portrays a conference to be held for A
 
 ## 🚀 VISIT SITE <a name="website"></a>
 
-<a name="https://ritadee.github.io/Art-and-culture/>">[Live Demo](https://ritadee.github.io/Art-and-culture/)</a>
+<a name="https://ritadee.github.io/Art-and-culture/>">[Live Demo](https://artevent.netlify.app/)</a>
 
 ## 🎥 WALKTHROUGH <a name="walkthrough"></a>
 
